@@ -4,7 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "content-hash": "32cc1fc86cc27cfb5c0af8c646a8f264",
+=======
+    "content-hash": "9c491b8531eec05ba41a11d9276a5749",
+>>>>>>> 9049e66170c9aff90eb3c8e8fac22ae41c936c3f
     "packages": [
         {
             "name": "brick/math",
@@ -62,6 +66,7 @@
             "time": "2023-01-15T23:15:59+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "cocur/slugify",
             "version": "v4.5.1",
             "source": {
@@ -208,6 +213,8 @@
             "time": "2023-02-16T23:01:35+00:00"
         },
         {
+=======
+>>>>>>> 9049e66170c9aff90eb3c8e8fac22ae41c936c3f
             "name": "dflydev/dot-access-data",
             "version": "v3.0.2",
             "source": {
@@ -6449,6 +6456,7 @@
         },
         {
             "name": "phpunit/php-code-coverage",
+<<<<<<< HEAD
             "version": "10.1.9",
             "source": {
                 "type": "git",
@@ -6459,6 +6467,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/a56a9ab2f680246adcf3db43f38ddf1765774735",
                 "reference": "a56a9ab2f680246adcf3db43f38ddf1765774735",
+=======
+            "version": "10.1.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
+                "reference": "84838eed9ded511f61dc3e8b5944a52d9017b297"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/84838eed9ded511f61dc3e8b5944a52d9017b297",
+                "reference": "84838eed9ded511f61dc3e8b5944a52d9017b297",
+>>>>>>> 9049e66170c9aff90eb3c8e8fac22ae41c936c3f
                 "shasum": ""
             },
             "require": {
@@ -6515,7 +6535,11 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-code-coverage/issues",
                 "security": "https://github.com/sebastianbergmann/php-code-coverage/security/policy",
+<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/10.1.9"
+=======
+                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/10.1.8"
+>>>>>>> 9049e66170c9aff90eb3c8e8fac22ae41c936c3f
             },
             "funding": [
                 {
@@ -6523,7 +6547,11 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
             "time": "2023-11-23T12:23:20+00:00"
+=======
+            "time": "2023-11-15T13:31:15+00:00"
+>>>>>>> 9049e66170c9aff90eb3c8e8fac22ae41c936c3f
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -8223,5 +8251,9 @@
         "php": "^8.1"
     },
     "platform-dev": [],
+<<<<<<< HEAD
     "plugin-api-version": "2.3.0"
+=======
+    "plugin-api-version": "2.6.0"
+>>>>>>> 9049e66170c9aff90eb3c8e8fac22ae41c936c3f
 }
