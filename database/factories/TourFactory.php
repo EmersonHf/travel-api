@@ -17,9 +17,9 @@ class TourFactory extends Factory
     {
         $startDate = $this->faker->dateTimeThisMonth;
         $endingDate = $this->faker->dateTimeBetween($startDate);
-        $travel = Travel::inRandomOrder()->first(); // Get a random travel record
+        // $travel = Travel::inRandomOrder()->first(); // Get a random travel record
         return [
-            'travel_id' => $travel->id,
+            'travel_id' => Travel::factory(),
             'name' => $this->faker->word,
             'starting_date' => $startDate,
             'ending_date' => $endingDate,
