@@ -21,9 +21,9 @@ class TravelFactory extends Factory
     {
         return [
             'name' => $this->faker->word,
-            'is_public' => 1,
-            'description' => $this->faker->sentence,
-            'number_of_days' => $this->faker->numberBetween(1, 15), // Adjust the range based on your needs
+            'is_public' => fake()->boolean(),
+            'description' => fake()->text(100),
+            'number_of_days' => rand(1, 10)
         ];
     }
 
