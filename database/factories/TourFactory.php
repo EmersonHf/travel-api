@@ -15,15 +15,14 @@ class TourFactory extends Factory
 
     public function definition()
     {
-        $startDate = $this->faker->dateTimeThisMonth;
-        $endingDate = $this->faker->dateTimeBetween($startDate);
-        // $travel = Travel::inRandomOrder()->first(); // Get a random travel record
+        $startDate = now();
+        $endingDate = $startDate->addDays(rand(1, 10));
         return [
             'travel_id' => Travel::factory(),
             'name' => $this->faker->word,
             'starting_date' => $startDate,
             'ending_date' => $endingDate,
-            'price' => $this->faker->numberBetween(100, 1000), // You can adjust the range based on your needs
+            'price' => fake()->randomFloat(2, 10, 999)
         ];
     }
 
