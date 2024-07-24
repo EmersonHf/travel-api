@@ -20,7 +20,7 @@ class TravelFactory extends Factory
     public function definition()
     {
         return [
-            'name' => $this->faker->word,
+            'name' => 'Viagem para:' . $this->faker->city,
             'is_public' => fake()->boolean(),
             'description' => fake()->text(100),
             'number_of_days' => rand(1, 10)
